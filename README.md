@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isOutputDataTypePolicy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-output-data-type-policy@esm/index.mjs';
+import isOutputDataTypePolicy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-output-data-type-policy@v0.1.0-esm/index.mjs';
 ```
 
 #### isOutputDataTypePolicy( value )
@@ -93,7 +93,7 @@ bool = isOutputDataTypePolicy( 'foo' );
 <body>
 <script type="module">
 
-import isOutputDataTypePolicy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-output-data-type-policy@esm/index.mjs';
+import isOutputDataTypePolicy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-output-data-type-policy@v0.1.0-esm/index.mjs';
 
 var bool = isOutputDataTypePolicy( 'boolean' );
 // returns true
