@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isOutputDataTypePolicy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-output-data-type-policy@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert-is-output-data-type-policy/tags). For example,
+
+```javascript
 import isOutputDataTypePolicy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-output-data-type-policy@v0.1.0-esm/index.mjs';
 ```
 
@@ -93,7 +98,7 @@ bool = isOutputDataTypePolicy( 'foo' );
 <body>
 <script type="module">
 
-import isOutputDataTypePolicy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-output-data-type-policy@v0.1.0-esm/index.mjs';
+import isOutputDataTypePolicy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-output-data-type-policy@esm/index.mjs';
 
 var bool = isOutputDataTypePolicy( 'boolean' );
 // returns true
