@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isOutputDataTypePolicy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-output-data-type-policy@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert-is-output-data-type-policy/tags). For example,
+
+```javascript
 import isOutputDataTypePolicy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-output-data-type-policy@v0.1.1-deno/mod.js';
 ```
 
@@ -88,7 +93,7 @@ bool = isOutputDataTypePolicy( 'foo' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isOutputDataTypePolicy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-output-data-type-policy@v0.1.1-deno/mod.js';
+import isOutputDataTypePolicy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-output-data-type-policy@deno/mod.js';
 
 var bool = isOutputDataTypePolicy( 'boolean' );
 // returns true
